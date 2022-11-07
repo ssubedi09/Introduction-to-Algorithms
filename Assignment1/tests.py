@@ -2,7 +2,7 @@ import unittest
 from Doubly_Linked_List_Seq  import Doubly_Linked_List_Seq
 
 # Change to True to visualize output
-verbose = False
+verbose = True
 
 tests = (
     (
@@ -26,6 +26,7 @@ tests = (
         [47, 17, 82, 85, 14, 99, 62, 142, 117, 49, 101, 142, (105, 105, 130, 0, 1, 2, 3, 4, 5, 83, 75, 78, 83, 0, 1, 0, 1, 2, 3, 4, 5, 2, 0, 0, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 3, 4, 5, 82, 75, 122, 6, 103)],
     ),
 )
+
 
 def run_test(ops):
     DS = Doubly_Linked_List_Seq()
